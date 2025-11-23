@@ -3282,7 +3282,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "todo"
+		(property "Value" "3.3kOhm"
 			(at 58.42 99.0599 0)
 			(effects
 				(font
