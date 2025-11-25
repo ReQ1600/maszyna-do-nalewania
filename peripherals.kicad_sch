@@ -1522,7 +1522,7 @@
 		)
 	)
 	(junction
-		(at 86.36 97.79)
+		(at 95.25 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "372ace28-fb63-4b7f-92b7-55b865f50965")
@@ -1615,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 86.36 97.79)
+			(xy 96.52 97.79) (xy 95.25 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1735,6 +1735,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 97.79) (xy 86.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61521ef4-cf40-41f5-b5d5-60606aaac9e2")
+	)
+	(wire
+		(pts
+			(xy 93.98 97.79) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a5e9c4-784f-4844-af6e-1b46700453a0")
+	)
+	(wire
+		(pts
 			(xy 137.16 46.99) (xy 137.16 39.37)
 		)
 		(stroke
@@ -1812,16 +1832,6 @@
 			(type default)
 		)
 		(uuid "9f3b7d06-a1a7-4428-bc96-5446d4a7d23e")
-	)
-	(wire
-		(pts
-			(xy 86.36 97.79) (xy 85.09 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1d1b94a-875f-4919-80b9-d7216d2ca16d")
 	)
 	(wire
 		(pts
@@ -1955,7 +1965,7 @@
 	)
 	(hierarchical_label "LOAD_CELL"
 		(shape output)
-		(at 87.63 97.79 0)
+		(at 96.52 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,7 +2538,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 86.36 101.6 270)
+		(at 95.25 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2536,7 +2546,7 @@
 		(dnp no)
 		(uuid "2c07c681-aa28-45bc-a473-489d17fafdb0")
 		(property "Reference" "D2"
-			(at 88.9 100.3299 90)
+			(at 97.79 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2555,7 @@
 			)
 		)
 		(property "Value" "2V"
-			(at 88.9 102.8699 90)
+			(at 97.79 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2564,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 86.36 101.6 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 101.6 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2582,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 86.36 101.6 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,10 +2613,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2d3e0c96-c68c-415e-bc3a-8056f932480b")
 		(property "Reference" "U4"
-			(at 87.63 91.3698 0)
+			(at 84.074 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2623,7 @@
 			)
 		)
 		(property "Value" "AD623"
-			(at 87.63 93.9098 0)
+			(at 83.566 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2838,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c007132-e9b9-41b0-8877-d684d51ed9cc")
 		(property "Reference" "#PWR030"
 			(at 80.01 92.71 0)
@@ -2841,7 +2849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 91.44 0)
+			(at 80.01 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2967,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 105.41 0)
+		(at 95.25 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2968,7 +2976,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b4cefb1-f831-47bf-a4d5-8dc5399d300e")
 		(property "Reference" "#PWR052"
-			(at 86.36 111.76 0)
+			(at 95.25 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2985,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 110.49 0)
+			(at 95.25 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 105.41 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 105.41 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3011,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 105.41 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,6 +4791,73 @@
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edc2bf93-d77a-4c2a-bcda-d66115b879f1")
+		(property "Reference" "R17"
+			(at 90.17 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "820Ohm"
+			(at 90.17 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 90.17 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1be795fe-239c-4188-9984-2f32c1b7fe67")
+		)
+		(pin "1"
+			(uuid "a766618e-d4b3-4e55-af5e-78fa49dc7f1a")
+		)
+		(instances
+			(project ""
+				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
+					(reference "R17")
 					(unit 1)
 				)
 			)
