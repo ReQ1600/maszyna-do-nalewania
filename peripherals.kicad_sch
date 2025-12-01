@@ -1564,6 +1564,12 @@
 		(uuid "372ace28-fb63-4b7f-92b7-55b865f50965")
 	)
 	(junction
+		(at 85.09 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b7084ed-6e02-44ed-9f63-a17f1165367f")
+	)
+	(junction
 		(at 86.36 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1580,12 +1586,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8b46d2-176d-4723-ab6a-993fc4d9fcf6")
-	)
-	(junction
-		(at 85.09 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f15f73e9-3a51-43c2-ad9f-e5ebf1d41175")
 	)
 	(junction
 		(at 59.69 135.89)
@@ -2296,7 +2296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1342a179-1602-47ab-b1a2-2379308111a4")
-		(property "Reference" "R18"
+		(property "Reference" "R211"
 			(at 222.25 102.8699 0)
 			(effects
 				(font
@@ -2350,7 +2350,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R18")
+					(reference "R211")
 					(unit 1)
 				)
 			)
@@ -2366,7 +2366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b584723-ff07-4890-bc5d-5e33f4cf77b6")
-		(property "Reference" "C16"
+		(property "Reference" "C201"
 			(at 114.3 41.9099 0)
 			(effects
 				(font
@@ -2420,7 +2420,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "C16")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -2436,7 +2436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "241bfaf4-9cf7-41a4-9105-70709e6d15fb")
-		(property "Reference" "R6"
+		(property "Reference" "R202"
 			(at 105.41 33.02 90)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R6")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -2504,7 +2504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2588eccc-e1b3-43f7-8d2a-20b206ab9521")
-		(property "Reference" "R8"
+		(property "Reference" "R204"
 			(at 152.4 33.02 90)
 			(effects
 				(font
@@ -2556,7 +2556,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R8")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -2572,7 +2572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25c4e42a-165f-49a9-b97a-fa1c76192542")
-		(property "Reference" "R9"
+		(property "Reference" "R205"
 			(at 160.02 34.2899 0)
 			(effects
 				(font
@@ -2626,7 +2626,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R9")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -2641,7 +2641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c07c681-aa28-45bc-a473-489d17fafdb0")
-		(property "Reference" "D2"
+		(property "Reference" "D200"
 			(at 111.76 109.2199 90)
 			(effects
 				(font
@@ -2695,7 +2695,7 @@
 		(instances
 			(project ""
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "D2")
+					(reference "D200")
 					(unit 1)
 				)
 			)
@@ -2796,7 +2796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea7bb0f-fc1f-456f-9f08-dd54612c4c01")
-		(property "Reference" "C15"
+		(property "Reference" "C200"
 			(at 67.31 43.1799 0)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 		(instances
 			(project ""
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "C15")
+					(reference "C200")
 					(unit 1)
 				)
 			)
@@ -2866,7 +2866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3177b8ad-323f-429c-8755-c4f99655952a")
-		(property "Reference" "D3"
+		(property "Reference" "D202"
 			(at 223.52 112.0774 90)
 			(effects
 				(font
@@ -2929,7 +2929,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "D3")
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -2945,7 +2945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f9e269-386c-4249-81f7-7ff54d5cf443")
-		(property "Reference" "C18"
+		(property "Reference" "C202"
 			(at 161.29 41.9099 0)
 			(effects
 				(font
@@ -2999,7 +2999,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "C18")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -3146,7 +3146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8cbfe4-01ad-449b-ab59-5dcf9703d853")
-		(property "Reference" "R16"
+		(property "Reference" "R210"
 			(at 207.01 102.8699 0)
 			(effects
 				(font
@@ -3200,7 +3200,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R16")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -3404,83 +3404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6001U")
-		(at 77.47 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "647affb2-8836-4a82-8eed-70695da44d66")
-		(property "Reference" "U5"
-			(at 82.296 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6001U"
-			(at 82.296 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
-			(at 77.47 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
-			(at 77.47 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "d607818f-6f3c-4a22-a21b-10372858acd8")
-		)
-		(pin "1"
-			(uuid "30be1174-2fe1-4ed9-ac61-79cf7cd03e8c")
-		)
-		(pin "4"
-			(uuid "efe54169-3e74-4b50-bcee-7fa62eda919d")
-		)
-		(pin "3"
-			(uuid "dfc0f589-f6fc-478a-b043-43a579d06620")
-		)
-		(pin "2"
-			(uuid "016d734f-d7ce-4207-8a28-719bb6da1f61")
-		)
-		(instances
-			(project ""
-				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+6V")
 		(at 53.34 101.6 0)
 		(unit 1)
@@ -3556,7 +3479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aa8cddf-643d-45cc-b90b-768b0bb43274")
-		(property "Reference" "D4"
+		(property "Reference" "D203"
 			(at 234.95 112.0774 90)
 			(effects
 				(font
@@ -3619,7 +3542,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "D4")
+					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e88f9f-0028-40fc-abb3-87f6c6d63cee")
-		(property "Reference" "D1"
+		(property "Reference" "D201"
 			(at 208.28 112.0774 90)
 			(effects
 				(font
@@ -3962,7 +3885,7 @@
 		(instances
 			(project ""
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "D1")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -3978,7 +3901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b81b27b-1c3f-4af1-a83b-7a6ebaf270d8")
-		(property "Reference" "R3"
+		(property "Reference" "R201"
 			(at 66.04 35.5599 0)
 			(effects
 				(font
@@ -4032,7 +3955,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R3")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -4182,7 +4105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94a07089-360b-443e-a579-029c37f1d3d5")
-		(property "Reference" "R7"
+		(property "Reference" "R203"
 			(at 113.03 34.2899 0)
 			(effects
 				(font
@@ -4236,7 +4159,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R7")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c7592b1-7f61-43a2-a9f6-9699e24cbedb")
-		(property "Reference" "R10"
+		(property "Reference" "R208"
 			(at 57.15 130.8099 0)
 			(effects
 				(font
@@ -4371,7 +4294,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R10")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -4519,7 +4442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3b05a6d-dbc4-44fc-8712-80c53bd82b8e")
-		(property "Reference" "R4"
+		(property "Reference" "R206"
 			(at 72.39 105.4099 0)
 			(effects
 				(font
@@ -4573,7 +4496,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R4")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b453457a-b25a-4601-b5fe-93faef1dbb63")
-		(property "Reference" "R19"
+		(property "Reference" "R112"
 			(at 233.68 102.8699 0)
 			(effects
 				(font
@@ -4643,7 +4566,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R19")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c77550cb-7758-4874-a233-4dcc9745d9d8")
-		(property "Reference" "R11"
+		(property "Reference" "R209"
 			(at 57.15 138.4299 0)
 			(effects
 				(font
@@ -4911,7 +4834,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R11")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -4926,7 +4849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9932837-8c73-44f0-bce6-cdd890a45046")
-		(property "Reference" "C17"
+		(property "Reference" "C203"
 			(at 90.17 87.63 90)
 			(effects
 				(font
@@ -4978,7 +4901,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "C17")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -5260,7 +5183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e999b1a2-2a83-4e65-a7c1-e7191fc986f8")
-		(property "Reference" "R5"
+		(property "Reference" "R200"
 			(at 58.42 34.29 90)
 			(effects
 				(font
@@ -5312,7 +5235,7 @@
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R5")
+					(reference "R200")
 					(unit 1)
 				)
 			)
@@ -5385,6 +5308,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MCP6001U")
+		(at 77.47 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec843c14-240a-4d4e-a273-aa050fc4ab47")
+		(property "Reference" "Buffer1"
+			(at 84.074 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6001U"
+			(at 84.074 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a45a4048-8f22-4cec-910a-3b9ceabf78ba")
+		)
+		(pin "4"
+			(uuid "ffb18a92-c1ec-4d37-949e-8f69f2c5588a")
+		)
+		(pin "1"
+			(uuid "ac0595d4-9a40-47ff-87d6-1423c65bf4ac")
+		)
+		(pin "2"
+			(uuid "16c66478-9fc6-4e66-8f40-4b6b699fef73")
+		)
+		(pin "3"
+			(uuid "48485b2d-5e70-4edc-9595-29871bfe41d6")
+		)
+		(instances
+			(project ""
+				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
+					(reference "Buffer1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 104.14 106.68 90)
 		(unit 1)
@@ -5393,7 +5393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edc2bf93-d77a-4c2a-bcda-d66115b879f1")
-		(property "Reference" "R17"
+		(property "Reference" "R207"
 			(at 104.14 101.346 90)
 			(effects
 				(font
@@ -5445,7 +5445,7 @@
 		(instances
 			(project ""
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f/a1d4e011-9c91-4e2d-9868-4caa044f2ad9"
-					(reference "R17")
+					(reference "R207")
 					(unit 1)
 				)
 			)

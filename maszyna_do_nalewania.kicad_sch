@@ -379,7 +379,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector:Screw_Terminal_01x01"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -387,25 +387,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 2.54 0.0001 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 2.54 -2.5399 0)
+			(property "Value" "Screw_Terminal_01x01"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -423,7 +421,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -450,10 +448,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Screw_Terminal_01x01_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -476,31 +474,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
 					(stroke
 						(width 0.1524)
@@ -521,37 +495,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -3239,12 +3184,6 @@
 		(uuid "25e7e709-2dea-4f62-b670-7ae0f4b09e52")
 	)
 	(junction
-		(at 238.76 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2da41004-b7a8-44bf-a94e-82c4a3ddaaaf")
-	)
-	(junction
 		(at 45.72 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3293,10 +3232,16 @@
 		(uuid "4de1a8e2-cbf7-40f0-85c4-679ab73e747e")
 	)
 	(junction
-		(at 238.76 41.91)
+		(at 238.76 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6276c2e0-301f-43cf-b79a-34fec6ca1ec6")
+	)
+	(junction
+		(at 238.76 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749774cd-4ff2-4ef1-8a76-227776c7f428")
 	)
 	(junction
 		(at 81.28 158.75)
@@ -3441,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 27.94) (xy 242.57 27.94)
+			(xy 238.76 31.75) (xy 242.57 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3461,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 25.4) (xy 242.57 25.4)
+			(xy 231.14 29.21) (xy 242.57 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3591,7 +3536,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 41.91) (xy 238.76 41.91)
+			(xy 238.76 31.75) (xy 238.76 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1719f6-aeec-41c6-bf9f-6976f9b54c7f")
+	)
+	(wire
+		(pts
+			(xy 247.65 44.45) (xy 238.76 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3618,16 +3573,6 @@
 			(type default)
 		)
 		(uuid "5b628689-d045-43b1-83b4-268bdea402c1")
-	)
-	(wire
-		(pts
-			(xy 238.76 41.91) (xy 238.76 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65f5355e-2d17-45eb-818b-aa380b426101")
 	)
 	(wire
 		(pts
@@ -3681,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 41.91) (xy 238.76 55.88)
+			(xy 238.76 44.45) (xy 238.76 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3771,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 55.88) (xy 238.76 55.88)
+			(xy 247.65 58.42) (xy 238.76 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3891,7 +3836,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 27.94) (xy 238.76 27.94)
+			(xy 231.14 31.75) (xy 238.76 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3920,7 +3865,7 @@
 		(uuid "0b521386-d93f-4846-bcc4-64c3d76c2768")
 	)
 	(label "PWM_S2"
-		(at 247.65 58.42 180)
+		(at 247.65 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3960,7 +3905,7 @@
 		(uuid "2d273876-1fed-4b75-8c7b-0b6b555f0749")
 	)
 	(label "PWM_S1"
-		(at 247.65 44.45 180)
+		(at 247.65 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4163,7 +4108,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d407093-12bc-486d-9200-f9b02b55c836")
 		(property "Reference" "LoadCellIn1"
 			(at 250.19 77.4699 0)
@@ -4365,6 +4309,72 @@
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 247.65 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c57eb30-16da-44ce-894f-5aebdc6e1723")
+		(property "Reference" "PowerIn1"
+			(at 251.206 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery-"
+			(at 251.206 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea92ddd7-0fbb-4b6e-b6f5-e399fd8dfe29")
+		)
+		(instances
+			(project "maszyna_do_nalewania"
+				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f"
+					(reference "PowerIn1")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 53.34 270)
+		(at 247.65 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4586,7 +4596,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b472db8-f14c-4a78-a67d-e75179febd26")
 		(property "Reference" "#PWR09"
-			(at 241.3 53.34 0)
+			(at 241.3 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 53.3399 90)
+			(at 243.84 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 53.34 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 53.34 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 53.34 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,17 +5260,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 247.65 17.78 0)
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 247.65 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ce8434d-b38d-481c-8b20-e197a1cdd904")
-		(property "Reference" "PowerSwitch1"
-			(at 250.19 17.7799 0)
+		(uuid "4e8b5776-c972-4fde-b0da-56102f794d41")
+		(property "Reference" "PowerSwitch2"
+			(at 250.952 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,8 +5277,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PowerSwitch"
-			(at 250.19 20.3199 0)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 250.952 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,8 +5286,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 247.65 17.78 0)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 247.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 17.78 0)
+			(at 247.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,8 +5304,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 17.78 0)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,15 +5314,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a14f45e0-9148-4793-a2d7-bc2066e49661")
-		)
-		(pin "2"
-			(uuid "bf41616f-db99-4814-b88e-071e630c89a0")
+			(uuid "03144284-e7e0-4a57-9cfe-60c61944b084")
 		)
 		(instances
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f"
-					(reference "PowerSwitch1")
+					(reference "PowerSwitch2")
 					(unit 1)
 				)
 			)
@@ -5721,76 +5727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 247.65 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68402901-578a-4c03-aed5-73102b439dda")
-		(property "Reference" "PowerIn1"
-			(at 250.19 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
-			(at 250.19 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 247.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e996e6f-40d8-4134-bbfd-91feff07d4e3")
-		)
-		(pin "2"
-			(uuid "ce7f94a1-f888-4474-b35c-600b073f3202")
-		)
-		(instances
-			(project ""
-				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f"
-					(reference "PowerIn1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 44.45 0)
 		(unit 1)
@@ -6065,7 +6001,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 39.37 270)
+		(at 247.65 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6074,7 +6010,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fc260e7-df90-4f4b-866d-f4267166d258")
 		(property "Reference" "#PWR08"
-			(at 241.3 39.37 0)
+			(at 241.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +6019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 39.3699 90)
+			(at 243.84 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 39.37 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +6037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 39.37 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +6046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 39.37 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6247,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 252.73 55.88 0)
+		(at 252.73 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6321,15 +6257,6 @@
 		(fields_autoplaced yes)
 		(uuid "98d6e6b4-fcef-4462-9d32-8e5b790d00b8")
 		(property "Reference" "ServoInterface2"
-			(at 254 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Servo2"
 			(at 254 57.1499 0)
 			(effects
 				(font
@@ -6338,8 +6265,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "Servo2"
+			(at 254 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
-			(at 252.73 55.88 0)
+			(at 252.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 55.88 0)
+			(at 252.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6293,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 252.73 55.88 0)
+			(at 252.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,6 +6524,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 247.65 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab833452-5a41-451b-842d-623dc999af7e")
+		(property "Reference" "PowerIn2"
+			(at 250.952 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery+"
+			(at 250.952 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 247.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99ca6328-fe44-4609-bf26-83196b1712c1")
+		)
+		(instances
+			(project "maszyna_do_nalewania"
+				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f"
+					(reference "PowerIn2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 40.64 180)
 		(unit 1)
@@ -6659,7 +6661,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 252.73 41.91 0)
+		(at 252.73 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6669,15 +6671,6 @@
 		(fields_autoplaced yes)
 		(uuid "ae5f8f58-98cb-4e89-82e9-35b7fee31d57")
 		(property "Reference" "ServoInterface1"
-			(at 254 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Servo1"
 			(at 254 43.1799 0)
 			(effects
 				(font
@@ -6686,8 +6679,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "Servo1"
+			(at 254 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
-			(at 252.73 41.91 0)
+			(at 252.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 41.91 0)
+			(at 252.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6707,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 252.73 41.91 0)
+			(at 252.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.09 160.528 90)
 			(effects
 				(font
@@ -7340,6 +7342,72 @@
 			(project "maszyna_do_nalewania"
 				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 247.65 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d90e676b-7d8e-453b-b558-a51032f952e7")
+		(property "Reference" "PowerSwitch1"
+			(at 251.206 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 251.206 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 247.65 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb64a3a1-b09b-48d1-a109-c98470f0c925")
+		)
+		(instances
+			(project ""
+				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f"
+					(reference "PowerSwitch1")
 					(unit 1)
 				)
 			)
@@ -7848,7 +7916,7 @@
 	)
 	(sheet
 		(at 205.74 15.24)
-		(size 25.4 17.78)
+		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7873,7 +7941,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 205.74 33.6046 0)
+			(at 205.74 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7882,7 +7950,7 @@
 			)
 		)
 		(pin "Bat+" input
-			(at 231.14 27.94 0)
+			(at 231.14 31.75 0)
 			(uuid "32ee7261-c7c4-4345-b215-a2ba9f14b49d")
 			(effects
 				(font
@@ -7892,7 +7960,7 @@
 			)
 		)
 		(pin "Bat-" input
-			(at 231.14 25.4 0)
+			(at 231.14 29.21 0)
 			(uuid "b1a5e196-bfdb-482a-acd7-3b8fc25cc297")
 			(effects
 				(font
