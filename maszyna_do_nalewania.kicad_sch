@@ -5,7 +5,10 @@
 	(uuid "9edf3a40-33ab-40a8-8c54-e53c70f0a44f")
 	(paper "A4")
 	(title_block
+		(title "Drink Pouring Machine")
 		(date "2025-12-08")
+		(rev "v1.0")
+		(company "Mateusz Drogowski Karol Dworczyński")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -3187,6 +3190,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "C STRAY NOT INCLUDED"
 		(exclude_from_sim no)
@@ -3302,6 +3406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6e48f19-ff66-442e-b767-13b02c10f8cc")
+	)
+	(junction
+		(at 86.36 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ee0db5-4a55-4eab-87c9-bdc0f5561fbb")
 	)
 	(no_connect
 		(at 73.66 86.36)
@@ -5441,6 +5551,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.36 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49380399-0a02-4872-badc-773947ee953f")
+		(property "Reference" "#FLG04"
+			(at 86.36 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 87.122 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f35a1ce-b838-43d6-9438-9909d2f40002")
+		)
+		(instances
+			(project ""
+				(path "/9edf3a40-33ab-40a8-8c54-e53c70f0a44f"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 138.43 36.83 0)
 		(mirror y)
@@ -6340,7 +6515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 69.85 160.02 0)
 			(effects
 				(font

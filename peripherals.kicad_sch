@@ -5,7 +5,10 @@
 	(uuid "04d82cc9-ba65-4e58-9360-58e0d34f1f75")
 	(paper "A4")
 	(title_block
+		(title "Drink Pouring Machine - Peripherals")
 		(date "2025-12-08")
+		(rev "v1.0")
+		(company "Mateusz Drogowski Karol Dworczyński")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Instrumentation:AD623"
