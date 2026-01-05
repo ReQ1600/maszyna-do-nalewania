@@ -2877,7 +2877,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "65Ohm"
+		(property "Value" "68Ohm"
 			(at 210.82 106.6799 0)
 			(effects
 				(font
@@ -3727,7 +3727,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "65Ohm"
+		(property "Value" "68Ohm"
 			(at 195.58 106.6799 0)
 			(effects
 				(font
@@ -4781,7 +4781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 48.26 35.56 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "65Ohm"
+		(property "Value" "200Ohm"
 			(at 222.25 106.6799 0)
 			(effects
 				(font
@@ -5925,7 +5925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 95.25 34.29 0)
 			(effects
 				(font
@@ -6406,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 142.24 34.29 0)
 			(effects
 				(font

@@ -3558,6 +3558,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 81.28) (xy 242.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acb7066-4078-4292-9b8d-f71535b56424")
+	)
+	(wire
+		(pts
 			(xy 231.14 29.21) (xy 242.57 29.21)
 		)
 		(stroke
@@ -3798,6 +3808,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 78.74) (xy 242.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee99fb4-5f84-41f9-90cf-81bd64f6af38")
+	)
+	(wire
+		(pts
 			(xy 97.79 31.75) (xy 96.52 31.75)
 		)
 		(stroke
@@ -3825,16 +3845,6 @@
 			(type default)
 		)
 		(uuid "9a6440fa-ef4e-45c4-9b11-d4d5bd878db8")
-	)
-	(wire
-		(pts
-			(xy 232.41 81.28) (xy 242.57 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a38cf26a-1c85-49a8-87ac-f85a4b5378b2")
 	)
 	(wire
 		(pts
@@ -3915,16 +3925,6 @@
 			(type default)
 		)
 		(uuid "b8e12c75-919e-4e46-8605-613a3a67c945")
-	)
-	(wire
-		(pts
-			(xy 232.41 78.74) (xy 242.57 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3adc76-c3cc-438d-89b6-e1275cf3ee06")
 	)
 	(wire
 		(pts
@@ -4412,7 +4412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-05P_1x05_P5.00mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06305HBWC_1x05_P3.50mm_Horizontal"
 			(at 247.65 78.74 0)
 			(effects
 				(font
@@ -5900,7 +5900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMA_RP"
+		(property "Value" "SMA"
 			(at 168.91 57.4431 0)
 			(effects
 				(font
@@ -8327,7 +8327,7 @@
 			)
 		)
 		(pin "GRN" input
-			(at 232.41 78.74 0)
+			(at 232.41 81.28 0)
 			(uuid "dba484f5-2cc5-455d-b56e-d2d91390e5f1")
 			(effects
 				(font
@@ -8337,7 +8337,7 @@
 			)
 		)
 		(pin "WHT" input
-			(at 232.41 81.28 0)
+			(at 232.41 78.74 0)
 			(uuid "62bc4b7b-0c9b-4f3b-b8db-99a2beabe517")
 			(effects
 				(font
